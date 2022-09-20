@@ -1,0 +1,68 @@
+.home{
+    width: 100vw;
+    position: relative;
+    background: url(../../assets/home/background-home-desktop.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    h2{
+        margin: 0;
+    }
+    .home-text{
+        max-width: 450px;
+        
+        h2{
+            text-transform: uppercase;
+            font-size: 28px;
+            font-family: 'Barlow Condensed', sans-serif;
+            letter-spacing: 4.72px;
+        }
+        h1{
+            margin: 24px 0 30px 0 ;
+            font-family: 'Bellefair', serif;
+            font-size: 150px;
+            
+            
+        }
+        p{
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            line-height: 32px;
+        }
+    }
+    .home-link{
+        display: flex;
+        align-items: center;
+    }
+    .home-link-glass{
+        position: relative;
+        width: 450px;
+        height: 450px;
+        opacity: 10.36%;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .home-link-text{
+        margin-left: 85px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        background-color: white;
+        border-radius: 100%;
+        width: 274px;
+        height: 274px;
+        a{
+            opacity: 1;
+            font-family: 'Bellefair';
+            font-size: 32px;
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+}

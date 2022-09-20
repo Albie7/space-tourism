@@ -1,0 +1,72 @@
+.destinition{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Barlow Condensed';
+    background: url('../../assets/destination/background-destination-desktop.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    h2{
+        font-size: 28px;
+        letter-spacing: 5px;
+        color: white;
+        margin: 0;
+    }
+    .planet-image{
+        img{
+            margin-top: 100px;
+        }
+    }
+    .planet-info{
+        color: white;
+        p{
+            font-family: 'Barlow';
+            font-size: 18px;
+            margin-top: 20px;
+            max-width: 444px;
+        }
+        h2{
+            margin-top: 40px;
+            font-family: 'Bellefair';
+            font-size: 100px;
+        }
+    }
+    
+}
+.destinition-navbar{
+    font-family: 'Barlow Condensed';
+    display: flex;
+    justify-content:space-around;
+    width: 600px;
+    a{
+        &:hover{
+            padding-bottom: 1vh;
+            border-bottom: 3px solid rgba($color: #ffffff, $alpha: 50%);
+        }
+        color: white;
+        text-decoration: none;
+        font-size:23px;
+    }
+    .active{
+        padding-bottom: 1vh;
+        border-bottom: 3px white solid;
+        
+    }
+}
+.nav-line{
+    width: 473px;
+    height: 1px;
+    background-color: rgba($color: #ffffff, $alpha: 25%);
+}
+.planet-text{
+    text-transform: uppercase;
+    p{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
