@@ -8,9 +8,10 @@ import moon from './assets/destination/image-moon.webp'
 import mars from './assets/destination/image-mars.webp'
 import europa from './assets/destination/image-europa.webp'
 import titan from './assets/destination/image-titan.webp'
-// *****************************
+// *************Pages****************
 import Home from "./pages/home/home";
 import Destinition from "./pages/destinition/destinition";
+import Crew from "./pages/crew/crew";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="destinition/mars" element={<Destinition Data={Data} i={1} planet={mars}/>}/>
         <Route path="destinition/europa" element={<Destinition Data={Data} i={2} planet={europa}/>}/>
         <Route path="destinition/titan" element={<Destinition Data={Data} i={3} planet={titan}/>}/>
+        <Route path="crew" element={<Crew data={Data}/>}/>
         <Route/>
       </Routes>
     </Router>

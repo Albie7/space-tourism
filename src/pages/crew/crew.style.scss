@@ -1,0 +1,84 @@
+.crew{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: url('../../assets/crew/background-crew-desktop.jpg') no-repeat;
+    background-size: cover;
+    max-height:100vh;
+
+    .crew-info{
+
+        margin: 0 auto;
+        width: 80%;
+        margin-left: auto;
+        margin-left: 125px;
+        margin-top: 200px;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        
+      
+    
+    }
+  
+}
+.alice-carousel{
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 720px;
+    }
+    
+    // .alice-carousel__prev-btn{
+    //     display: none;
+    // }
+    // .alice-carousel__next-btn{
+    //     display: none;
+    // }
+    .alice-carousel__dots{
+        margin-left: 2px;
+        position: absolute;
+        bottom: 5%;
+        left: 16.5%;
+        li{
+            width: 15px;
+            height: 15px;
+        }
+  
+    }
+   
+    .crew-text{
+        margin-right: auto;
+        margin-left: 200px;
+        h4{
+            font-size: 28px;
+            letter-spacing: 5px;
+            font-family: 'Barlow Condensed';
+        }
+        h3{
+            font-size: 32px;
+            font-family: 'Bellefair';
+            opacity: 50%;
+            text-transform: uppercase;
+            margin-top: 150px;
+        }
+        p{
+            font-family: 'Barlow';
+            font-size: 18px;
+            max-width: 444px;
+            margin-bottom:150px;
+            height: 50px;
+        }
+        h2{
+
+            text-transform: uppercase;
+            margin-top: -15px;
+            font-family: 'Bellefair';
+            font-size: 56px;
+            margin-bottom: 25px;
+        }
+        
+    }
+}
