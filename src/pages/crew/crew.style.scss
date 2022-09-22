@@ -40,8 +40,8 @@
     .alice-carousel__dots{
         margin-left: 2px;
         position: absolute;
-        bottom: 5%;
-        left: 16.5%;
+        bottom: 5rem;
+        left: 20rem;
         li{
             width: 15px;
             height: 15px;
@@ -56,6 +56,8 @@
             font-size: 28px;
             letter-spacing: 5px;
             font-family: 'Barlow Condensed';
+            margin-top: -170px;
+            margin-bottom: 200px;
         }
         h3{
             font-size: 32px;
@@ -63,8 +65,10 @@
             opacity: 50%;
             text-transform: uppercase;
             margin-top: 150px;
+            margin-bottom: 50px;
         }
         p{
+            margin-top: 50px;
             font-family: 'Barlow';
             font-size: 18px;
             max-width: 444px;

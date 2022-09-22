@@ -16,7 +16,7 @@ const DestinitionNav = () =>{
 const Destinition = ({Data,i,planet}) =>{
     return(<div className='destinition'>
     <div className='planet-image'>
-        <h2>01 PICK YOUR DESTINITION</h2>
+        <h2><span>01</span> PICK YOUR DESTINITION</h2>
         <img src={planet}></img>
     </div>
     <div className='planet-info'>

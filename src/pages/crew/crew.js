@@ -14,7 +14,7 @@ const Crew = ({data}) => {
          <>
      <div key={idx} className='crew-info'>
         <div className='crew-text'>
-        <h4>02 MEET YOUR CREW</h4>
+        <h4><span>02</span> MEET YOUR CREW</h4>
             <h3>{person.role}</h3>
             <h2>{person.name}</h2>
             <p>{person.bio}</p>

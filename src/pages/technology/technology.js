@@ -9,7 +9,7 @@ import { useState } from 'react';
         const [i,seti] = useState(0)
         return(
             <div className='technology'>
-                <h3>03 SPACE LAUNCH 101</h3>
+                <h3><span>03</span> SPACE LAUNCH 101</h3>
                 <div className='launcher-info'>
                 <div className='buttons'>
                     <button className={i==0?'active-btn':null} onClick={()=>seti(0)}>1</button>
