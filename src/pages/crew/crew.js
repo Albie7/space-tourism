@@ -8,7 +8,7 @@ import crewImg from '../../assets/crew/image-douglas-hurley.webp'
 
 const Crew = ({data}) => {
     return<div className='crew'>
-<AliceCarousel animationType='fadeout' animationDuration={200} autoPlay autoPlayInterval={3000} infinite={true} disableButtonsControls={true}>
+<AliceCarousel  animationDuration={200} autoPlay autoPlayInterval={5000} infinite={true} disableButtonsControls={true}>
 
      {data.crew.map((person,idx) => {return(
          <>

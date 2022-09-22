@@ -1,0 +1,26 @@
+.error{
+    flex-direction: column;
+    color: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    button{
+        border: none;
+        font-size: 40px;
+        border-radius: 100%;
+        width: 250px;
+        height: 250px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}

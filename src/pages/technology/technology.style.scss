@@ -1,0 +1,67 @@
+.technology{
+    color: white;
+    background: url('../../assets/technology/background-technology-desktop.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    h3{
+        font-family: 'Barlow Condensed';
+        font-size: 28px;
+        text-align: center;
+        width: 44%;
+        margin-bottom: 137px;
+        margin-top: 212px;
+    }
+    .buttons{
+        height: 303px;
+        margin-left: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    button{
+        cursor: pointer;
+        font-size: 30px ;
+        color:white;
+        width: 80px;
+        height: 80px;
+        border: 1px white solid;
+        border-radius: 100%;
+        background-color: transparent;
+        margin-right: 78px;
+
+    }
+    .active-btn{
+        color: black;
+        background-color: white;
+    }
+
+    }
+    .launcher-info{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        p{
+            width: 444px;
+            font-size: 18px;
+            font-family: 'Barlow';
+        }
+        h2{
+            text-transform: uppercase;
+            font-family: 'Bellefair';
+            font-size: 56px;
+        }
+        .launcher-text{
+            width: 500px;
+            height: 303px;
+            padding-right: 200px;
+        }
+        .launcher-image{
+            display: flex;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+    }
+}

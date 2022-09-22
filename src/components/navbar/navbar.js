@@ -15,7 +15,7 @@ const Navbar = () =>{
                     <NavLink className='nav-link' activeClassName='active-link' to='' end>00 Home</NavLink>
                     <NavLink className='nav-link'  to='destinition/moon'>01 Destinition</NavLink>
                     <NavLink className='nav-link'  to='crew'>02 Crew</NavLink>
-                    <NavLink className='nav-link'  to='tehnology'>03 Technology</NavLink>
+                    <NavLink className='nav-link'  to='technology'>03 Technology</NavLink>
                 </ul>
             </div>
         </div>
